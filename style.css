@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Clear Sans;
+    src: url(fonts/ClearSans-Bold.ttf), url(fonts/ClearSans-BoldItalic.ttf), url(fonts/ClearSans-Italic.ttf), url(fonts/ClearSans-Light.ttf), url(fonts/ClearSans-Medium.ttf), url(fonts/ClearSans-MediumItalic.ttf), url(fonts/ClearSans-Regular.ttf), url(fonts/ClearSans-Thin.ttf);
+}
+
+main {
+    margin: 200px auto;
+    width: 271px;
+    height: 346px;
+    background-color: #FAF8EF;
+}
+
+.header {
+    display: flex;
+    gap: 3px;
+    padding: 10px;
+}
+
+.logo {
+    font-family: Clear Sans;
+    height: 29px;
+    color: #685F56;
+    width: 94px;
+    font-size: 35px;
+    line-height: 27px;
+    ;
+}
+
+.score,
+.best {
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    color: #DBD0C6;
+    height: 29px;
+    width: 63px;
+    border-radius: 2px;
+    background-color: #BBAD9F;
+}
+
+.span-header {
+    color: #FFFFFF;
+    font-family: Clear Sans;
+    font-size: 14px;
+    line-height: 11px;
+}
+
+.margin {
+    margin-left: 25px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    margin-left: 10px;
+    font-size: 10px;
+    color: #A9A39A;
+}
+
+.span-content {
+    font-family: Clear Sans;
+    color: #685F56;
+}
+
+.button {
+    color: #FDFDFB;
+    background-color: #8F7A66;
+    width: 65px;
+    height: 20px;
+    font-size: 10px;
+    font-family: Clear Sans;
+    line-height: 4px;
+    margin-left: 15px;
+    border-radius: 2px;
+}
+
+.glass {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 250px;
+    background-color: #B1A193;
+    margin: 15px 10px;
+    border-radius: 2px;
+}
+
+.cell {
+    width: 54px;
+    height: 54px;
+    background-color: #CDC1B3;
+    margin: 4px;
+}
+
+[class*='num'] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Clear Sans;
+    font-size: 30px;
+}
+
+.num8192 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.num2 {
+    background-color: #EDE3D9;
+    color: #625A50;
+
+}
+
+.num8 {
+    background-color: #F3B178;
+    color: white;
+}
+
+.num16 {
+    background-color: #F49765;
+    color: white;
+}
+
+.num4 {
+    background-color: #CDC1B3;
+    color: #665C53;
+}
