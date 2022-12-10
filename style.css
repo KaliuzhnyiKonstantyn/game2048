@@ -88,6 +88,7 @@ main {
 }
 
 .cell {
+    border-radius: 2px;
     width: 54px;
     height: 54px;
     background-color: #CDC1B3;
